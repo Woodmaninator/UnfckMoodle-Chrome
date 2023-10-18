@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "UnfckMoodle",
+    "version": "1.0",
+  
+    "description": "Makes the new version of the elearning platform moodle a little less terrible",
+  
+    "icons": {
+      "48": "icons/48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://elearning.fh-ooe.at/course/*"],
+        "js": ["scripts/unfuck.js"]
+      }
+    ]
+  }
+  
