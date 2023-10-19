@@ -10,3 +10,13 @@ Please note that this version only works for Google Chrome.
 - Enable the developer mode (top right corner of the window).
 - Click `load unpacked extension` and select the folder that you unpacked earlier.
 - You can disable the developer mode again.
+
+## Before/After Comparison
+
+### Before
+
+![](./img/before.png)
+
+### After
+
+![](./img/after.png)
